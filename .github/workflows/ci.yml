@@ -4,7 +4,7 @@ on: push
 
 jobs:
   check:
-    runs-on: ununtu-latesr
+    runs-on: ubuntu-latest
     steps:
       - name: Say hello
         run: echo "Hello from Github Actions"
